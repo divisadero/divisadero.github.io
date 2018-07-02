@@ -11,7 +11,7 @@ The process to do so is as follows:
 3. Replace the original ```customDimensions``` array with a new array with the new values-
 4. Replace the initial ```hits``` array with a new array where the custom dimensions are modified.
 
-```
+```sql
 #standardSQL
 UPDATE `tablename`
 SET hits = 

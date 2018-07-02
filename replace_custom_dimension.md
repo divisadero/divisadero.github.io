@@ -25,7 +25,7 @@ SET hits =
           # Select the default values for all indexes but index_number
           CASE WHEN cd.index = n THEN 'new value'
           ELSE cd.value
-          END AS 
+          END
         FROM UNNEST(customDimensions) AS cd
       ) AS customDimensions)
     FROM UNNEST(hits) hit

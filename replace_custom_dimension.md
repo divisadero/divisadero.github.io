@@ -32,3 +32,7 @@ SET hits =
   )
 WHERE TRUE
 ```
+
+<aside class="notice">
+Note that this can take a while to run.
+</aside>

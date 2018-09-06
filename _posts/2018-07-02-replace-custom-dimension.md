@@ -1,5 +1,6 @@
 ---
 title:Replace Custom Dimension
+layout:post
 ---
 
 This query modifies de value of a given customDimension stored with index = *n*.

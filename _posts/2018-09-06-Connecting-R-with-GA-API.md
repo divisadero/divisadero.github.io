@@ -23,8 +23,8 @@ query returning a R DataFrame:
    * If you **do** have access to GCP: Access the APIs and Oath service and get the credential for the Client ID for native application.
      You need both the clientId and the clientSecret.  Then you can create a token to authenticate
      ```R
-     client.id<-"970447072641-ppu4dbgk2kg7vcd7qmq2o854cqkhkcuh.apps.googleusercontent.com"
-     client.secret<-"It73wWlGBwaqBAyQW3FQmqCx"
+     client.id     <- <clienId>
+     client.secret <- <secret>
 
      #creacion y llamada del token
 

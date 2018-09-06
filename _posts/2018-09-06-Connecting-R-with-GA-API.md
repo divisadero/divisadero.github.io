@@ -13,13 +13,14 @@ query returning a R DataFrame:
   ```
 2. Authenticate into the right account. Here there are two possibilities, either you have acces to Google Cloud Platform and the
    or you don't, in each case these are the steps:
-   * If you **don't** have access: You can connect directly to GA. Using this code a web browser will prompt asking for you email and
+   * If you **don't** have access: You can connect directly to GA. Using this code a web browser will prompt asking for your email and
      password-
      Once you are authenticated into GA you can check all your accounts and get the viewId for the one you need
-     ```
+     ```R
      ga_auth()                   # Opens browser to authenticate
      my_accounts <- ga_account_list()
      View(my_accounts)           # Search for the account and copy the viewId
+     ```
    * If you **do** have access to GCP: Access the APIs and Oath service and get the credential for the Client ID for native application.
      You need both the clientId and the clientSecret.  Then you can create a token to authenticate
      ```R

@@ -8,9 +8,9 @@ query returning a R DataFrame:
 
 1. Packages needed: To work with the Google Analytics API you need two packages.
    ```R
-  library(httpuv)             # Web socket service package
-  library(RGoogleAnalytics)   # Conexion R con GA
-  ```
+   library(httpuv)             # Web socket service package
+   library(RGoogleAnalytics)   # Conexion R con GA
+   ```
 2. Authenticate into the right account. Here there are two possibilities, either you have acces to Google Cloud Platform and the
    or you don't, in each case these are the steps:
    * If you **don't** have access: You can connect directly to GA. Using this code a web browser will prompt asking for your email and

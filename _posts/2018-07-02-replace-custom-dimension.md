@@ -1,3 +1,7 @@
+---
+title:Replace Custom Dimension
+---
+
 This query modifies de value of a given customDimension stored with index = *n*.
 
 The process to do so is as follows:

@@ -1,3 +1,8 @@
+---
+title: Connecting R with Google Analytics via API
+description: How to connect to the API of Google Analytics and return results in the shape of a R dataframe
+---
+
 Extract data directly from Google Analytics using R is possible via the API. This is the process to authenticateand create a simple
 query returning a R DataFrame:
 
